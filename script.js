@@ -14,7 +14,7 @@ let colorPalettes = [
 ];
 let colorPaletteIndex;
 if (localStorage.getItem("colorIndex") == null || localStorage.getItem("colorIndex") > colorPalettes.length) {
-    colorPaletteIndex = 1;
+    colorPaletteIndex = 0;
     localStorage.setItem("colorIndex", colorPaletteIndex);
 } else {
     colorPaletteIndex = localStorage.getItem("colorIndex");

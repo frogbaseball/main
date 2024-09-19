@@ -81,6 +81,22 @@ main {
 main p {
     font-size: 20px;
 }
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 50%;
+    border-collapse: collapse;
+    border: 4px solid var(--clr-text);
+}
+table tr th {
+    border: 2px solid var(--clr-text);
+    padding: 6px;
+}
+table tr:nth-child(even) {
+    background-color: var(--clr-secbg);
+}
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -108,8 +124,9 @@ h2 {
 #aboutme {
     text-align: center;
 }
-#aboutme p:first-of-type {
+#aboutme p {
     margin-top: 7px;
+    margin-bottom: 7px;
 }
 #project {
     background-color: var(--clr-secbg);
