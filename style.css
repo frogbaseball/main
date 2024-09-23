@@ -136,6 +136,12 @@ h2 {
     margin: 25px;
     text-decoration: none;
 }
+#project p {
+    width: 100%;
+}
+#project img {
+    width: 100%;
+}
 #contacts p {
     text-align: center;
     margin-top: 7px;
