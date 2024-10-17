@@ -11,16 +11,50 @@
 }
 /* body */
 body {
-    width: 50vw;
+    width: 60vw;
     padding: 2px;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     background-color: var(--clr-bg);
+}
+@media (min-width: 501px) {
+    #skillstable_firsthalf {
+        display: none;
+    }
+    #skillstable_secondhalf {
+        display: none;
+    }
 }
 @media (max-width: 650px) {
     body {
         width: 100vw;
         padding-left: 0;
+    }
+}
+@media (max-width: 850px) {
+    body {
+        width: 100vw;
+        padding-left: 0;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+        padding-left: 0;
+    }
+    #project {
+        max-width: 75%;
+        height: 5%;
+    }
+    #project img {
+        display: none;
+    }
+    #skillstable_full {
+        display: none;
+    }
+    .grid-item {
+        width: 95%;
+        margin-left: 0;
     }
 }
 /* Header */
@@ -113,6 +147,8 @@ table tr:nth-child(even) {
     padding: 10px;
     text-decoration: none;
     color: var(--clr-text);
+    width: 50%;
+    margin-left: 23%;
 }
 .grid-item img {
     width: 100%;
@@ -135,12 +171,15 @@ h2 {
     flex-direction: row;
     margin: 25px;
     text-decoration: none;
+    margin-left: 12%;
 }
 #project p {
     width: 100%;
 }
 #project img {
-    width: 100%;
+    max-width: 35%;
+    max-height: auto;
+    margin: 5px;
 }
 #contacts p {
     text-align: center;
