@@ -17,7 +17,17 @@ body {
     padding-right: 20vw;
     background-color: var(--clr-bg);
 }
-@media (max-width: 650px) {
+@media (max-width: 1400px) {
+    #navbar {
+        font-size: small;
+    } 
+}
+@media (max-width: 1240px) {
+    #navbar {
+        font-size: xx-small;
+    }
+}
+@media (max-width: 840px) {
     body {
         width: 100vw;
         padding-left: 0;

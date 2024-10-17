@@ -28,8 +28,9 @@ let sectionsArray = [
 ];
 HideObjectsInArray(sectionsArray);
 $('#aboutme').show();
-$('button').click(function(){
+$('.dontignore').click(function(){
     $('button').addClass('notonpage');
+    $('button').removeClass('onpage');
     $(this).addClass('onpage');
     $(this).removeClass('notonpage');
     $('.ignore').removeClass('notonpage onpage');
