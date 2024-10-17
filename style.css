@@ -17,24 +17,18 @@ body {
     padding-right: 20vw;
     background-color: var(--clr-bg);
 }
-@media (min-width: 501px) {
-    #skillstable_firsthalf {
-        display: none;
-    }
-    #skillstable_secondhalf {
-        display: none;
-    }
-}
 @media (max-width: 650px) {
     body {
         width: 100vw;
         padding-left: 0;
     }
 }
-@media (max-width: 850px) {
-    body {
-        width: 100vw;
-        padding-left: 0;
+@media (min-width: 501px) {
+    #skillstable_firsthalf {
+        display: none;
+    }
+    #skillstable_secondhalf {
+        display: none;
     }
 }
 @media (max-width: 500px) {
