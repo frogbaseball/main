@@ -142,8 +142,10 @@ table tr:nth-child(even) {
     padding: 10px;
 }
 .grid {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto auto;
+    width: 25%;
+    margin-left: 37.5%;
 }
 .grid-item {
     background-color: var(--clr-secbg);
@@ -151,8 +153,7 @@ table tr:nth-child(even) {
     padding: 10px;
     text-decoration: none;
     color: var(--clr-text);
-    width: 50%;
-    margin-left: 23%;
+    height: auto;
 }
 .grid-item img {
     width: 100%;
@@ -175,10 +176,12 @@ h2 {
     flex-direction: row;
     margin: 25px;
     text-decoration: none;
-    margin-left: 12%;
+    margin-left: 25%;
+    width: 50%;
 }
 #project p {
     width: 100%;
+
 }
 #project img {
     max-width: 35%;
